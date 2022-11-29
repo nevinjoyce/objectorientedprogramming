@@ -10,6 +10,10 @@ class employee{
 		{
 			eno=count++;
 		}
+		~employee()
+		{
+			cout<<"Object has been DESTROYED"<<endl;
+		}
 		void getdata()
 		{
 			cout<<"Enter Employee Name: ";
